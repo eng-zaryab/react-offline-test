@@ -1,6 +1,8 @@
 import React from 'react';
+import './App.css';
+import EnergyMix from './components/EnergyMix';
 
-const App = () => <h1>UK Energy Mix</h1>;
+const App = () => <div><EnergyMix /></div>;
 
 export {
     App
